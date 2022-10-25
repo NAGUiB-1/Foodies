@@ -4,7 +4,7 @@ import RightArrow from "../assets/RightArrow.svg";
 export default function Stars() {
   let pstyle = "text-[#06C167] font-bold text-4xl";
   return (
-    <div className="mt-20 lg:mt-0 container mx-auto flex flex-col-reverse lg:flex-row lg:h-screen gap-[4rem] lg:justify-center lg:items-center ">
+    <div className="mt-20 container mx-auto flex flex-col-reverse lg:flex-row lg:h-[650px] gap-[4rem] lg:justify-center lg:items-center ">
       <div className="right w-full lg:w-[calc(50%-2rem)] flex lg:items-start flex-col justify-center items-center">
         <p>Our Stars</p>
         <h3 className="text-4xl md:text-6xl lg:text-7xl mb-16 text-center lg:text-left">
@@ -29,7 +29,7 @@ export default function Stars() {
           <img src={RightArrow} alt="RightArrow" />
         </div>
       </div>
-      <div className="left w-full lg:w-[calc(50%-2rem)] lg:h-[80%] relative bg-[#F3FCF7] flex items-start justify-center lg:justify-end">
+      <div className="left w-full lg:w-[calc(50%-2rem)] lg:h-[90%] relative bg-[#F3FCF7] flex items-start justify-center lg:justify-end">
         <img src={Star} alt="Stars" className="w-[90%] lg:static " />
       </div>
     </div>
