@@ -8,10 +8,10 @@ export default function Card({ title, reverse, img }) {
         reverse ? "lg:flex-row-reverse" : "lg:flex-row"
       } flex-col justify-center items-center`}
     >
-      <div className="lg:w-full">
-        <img src={img} alt="food" className="lg:w-full" />
+      <div className="w-full h-full">
+        <img src={img} alt="food" className="w-full h-full object-cover" />
       </div>
-      <div className="w-fit lg:w-full border-2 border-[#06C167] h-full">
+      <div className="w-full border-2 border-[#06C167] h-full">
         <div className="flex flex-col justify-evenly gap-3 h-full p-4  lg:items-start items-center">
           <h4 className="text-4xl text-center md:text-left">{title}</h4>
           <p>We offer the following services</p>
