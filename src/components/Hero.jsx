@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <div>
       <Navbar />
-      <div className="   bg-[#F3FCF7] ">
+      <div className="   bg-[#F3FCF7] pb-6 ">
         <div className="container mx-auto flex  py-4 overflow-hidden flex-col md:flex-row">
           <div className="left flex justify-between flex-col w-full text-center md:text-left ">
             <div>
