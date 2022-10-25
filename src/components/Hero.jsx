@@ -31,7 +31,7 @@ export default function Hero() {
                 <img src={RightArrow} alt="" />
               </div>
             </div>
-            <div className="md:flex mb-10 hidden  w-full  xl:mb-20 xl:mt0">
+            <div className="md:flex mb-10 hidden  w-full mt-10 xl:mb-20 ">
               <img src={Group1} alt="Group1" className=" w-[100px] lg:w-auto" />
               <img src={Group2} alt="Group2" className=" w-[100px] lg:w-auto" />
               <img src={Group3} alt="Group3" className=" w-[100px] lg:w-auto" />
