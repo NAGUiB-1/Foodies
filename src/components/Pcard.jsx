@@ -9,7 +9,7 @@ function Pcard({ title, img }) {
       </div>
       <p className="text-[#06C167] font-bold text-lg text-center w-full">
         {" "}
-        &#128970; &#128970; &#128970; &#128970; &#128970;
+        ★★★★★
       </p>
       <h5 className="w-full text-center text-2xl">{title}</h5>
       <p className="w-full text-center text-[#06C167] font-bold">
